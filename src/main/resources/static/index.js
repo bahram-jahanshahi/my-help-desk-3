@@ -8,6 +8,6 @@ $(document).ready(function () {
 
 function loadPage(page) {
     if (page === 'list-incident-by-employee') {
-        $('#app-content-load').load('features/incident_management/list-incident-by-employee.html');
+        $('#app-content-load').load('features/incident_management/list-incident-by-employee/list-incident-by-employee.html');
     }
 }

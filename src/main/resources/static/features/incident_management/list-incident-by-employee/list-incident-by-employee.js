@@ -13,7 +13,7 @@ function listIncidentByEmployee() {
             console.table(data.incidentsOfEmployee);
             prepareTable(data.incidentsOfEmployee);
         },
-        failure: function (errorMessage) {
+        error: function (errorMessage) {
             alert(errorMessage)
         }
     });
@@ -32,4 +32,8 @@ function prepareTable(data) {
         content +=  "</tr>";
     }
     $('#table-body').html(content);
+}
+
+function showSubmitIncidentByEmployeeModal() {
+    $("#submit-incident-by-employee-modal-box").load("features/incident_management/submit-incident-by-employee/submit-incident-by-employee.html");
 }
