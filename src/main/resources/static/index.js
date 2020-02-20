@@ -5,3 +5,9 @@ $(document).ready(function () {
         submenu.siblings("ul").hide(500);
     });
 });
+
+function loadPage(page) {
+    if (page == 'incident-list') {
+        $('#app-content').load('address ...');
+    }
+}
