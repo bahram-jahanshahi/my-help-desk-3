@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 function loadPage(page) {
-    if (page === 'incident-list') {
-        $('#app-content-load').load('index.txt');
+    if (page === 'list-incident-by-employee') {
+        $('#app-content-load').load('features/incident_management/list-incident-by-employee.html');
     }
 }

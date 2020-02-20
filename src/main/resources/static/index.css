@@ -93,9 +93,10 @@ body, html {
 
 .app-content {
     margin-top: 64px;
-    margin-left: 240px;
     position: absolute;
+    width: 100%;
 }
 .app-content-load {
     padding: 8px;
+    margin-left: 240px;
 }
