@@ -92,6 +92,10 @@ body, html {
 }
 
 .app-content {
-    padding-top: 64px;
-    padding-left: 240px;
+    margin-top: 64px;
+    margin-left: 240px;
+    position: absolute;
+}
+.app-content-load {
+    padding: 8px;
 }

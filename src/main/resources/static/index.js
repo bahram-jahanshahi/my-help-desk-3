@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 function loadPage(page) {
-    if (page == 'incident-list') {
-        $('#app-content').load('address ...');
+    if (page === 'incident-list') {
+        $('#app-content-load').load('index.txt');
     }
 }
